@@ -1,0 +1,732 @@
+/* 1024! - 1229 */
+@media screen and (max-width: 1229px) {
+  .choose-macaroons {
+    .choose-macaroons__container {
+      .choose-macaroons__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 80px;
+      }
+    }
+  }
+
+
+  .order {
+    .order__container {
+      padding-right: 32px;
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 1390px) {
+  .fixed-present {
+    transform: scale(0.8);
+    right: -15px;
+    bottom: 0;
+  }
+
+
+}
+
+
+/* 768! - 1023 */
+@media screen and (max-width: 1023px) {
+
+  .header {
+    .container {
+      .header__menu {
+        justify-content: space-between;
+
+        .contacts {
+          display: none;
+        }
+
+
+        .header__menu_img {
+          margin-right: 83px;
+        }
+      }
+    }
+  }
+
+
+  .order {
+    .order__container {
+      .order__img {
+        .order__macaroons {
+          width: 100%;
+        }
+      }
+
+      .order__text {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .main-macaroons {
+    .main__container {
+      .main-macaroons__img {
+        .main-macaroons__img_image {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+
+  .about-macaroons {
+    .about-macaroons__container {
+      .about-macaroons__main-info {
+        .about-macaroons__main-info_img {
+          img {
+            width: 58%;
+          }
+
+        }
+      }
+    }
+  }
+
+
+}
+
+
+/* 425! - 768 */
+@media screen and (max-width: 768px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .main-macaroons {
+    .main__container {
+      flex-direction: column;
+      padding-top: 59px;
+      padding-bottom: 40px;
+      align-items: flex-start;
+
+      .main-macaroons__text {
+        .main-macaroons__text_text-about {
+          margin-bottom: 41px;
+        }
+      }
+
+
+      .main-macaroons__img {
+        position: relative;
+        left: 185px;
+        bottom: 82px;
+
+        .main-macaroons__img_image {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .order {
+    .order__container {
+      flex-direction: row-reverse;
+      justify-content: start;
+      padding-left: 18px;
+
+      .order__img {
+        .order__macaroons {
+          position: absolute;
+          right: 18px;
+          bottom: 0;
+          width: 46%;
+        }
+
+        .order__bg-berry1 {
+          width: 72px;
+          left: 48%;
+          top: 349px;
+        }
+      }
+
+      .order__text {
+        margin-left: 0;
+        overflow: hidden;
+      }
+
+      .order__bg-berry2 {
+        max-width: 80%;
+        left: 78%;
+        top: 254px;
+      }
+
+
+    }
+  }
+
+  .header {
+    .container {
+      .header__menu {
+        padding: 38px 0 25px 0;
+
+        .header__menu_img {
+          margin-right: 0;
+        }
+
+        .header__menu_list {
+          text-align: center;
+          align-items: center;
+          margin-right: 203px;
+        }
+      }
+    }
+  }
+
+  .about-macaroons {
+    text-align: center;
+
+    .about-macaroons__container {
+      padding-bottom: 120px;
+
+      .about-macaroons__main-info {
+        flex-direction: column;
+        align-items: center;
+
+        .about-macaroons__main-info_text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .about-macaroons__main-info_text_title {
+            max-width: 500px;
+          }
+
+          .about-macaroons__main-info_text_text {
+            max-width: 680px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+
+      .about-macaroons__advantages {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: unset;
+        grid-column-gap: 54px;
+        grid-row-gap: 80px;
+
+        .about-macaroons__advantages_card {
+          &:nth-of-type(odd) {
+            justify-self: end;
+          }
+
+          &:nth-of-type(even) {
+            justify-self: start;
+          }
+
+          .advantages_card-number-bg {
+            margin-left: calc(50% - 35px);
+          }
+
+        }
+      }
+    }
+  }
+
+
+  .choose-macaroons {
+
+    .choose-macaroons__container {
+      padding-bottom: 0;
+      margin-bottom: -16px;
+
+      .choose-macaroons__cards {
+        grid-column-gap: 29px;
+        grid-row-gap: 0;
+
+        .choose-macaroons__cards_card {
+          margin: 0 0 136px 0;
+
+          &:nth-of-type(odd) {
+            justify-self: end;
+          }
+
+          &:nth-of-type(even) {
+            justify-self: start;
+          }
+
+          &:last-of-type, &:nth-last-of-type(2) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 737px) {
+
+  .main-macaroons {
+    .main__container {
+      .main-macaroons__img {
+        .main-macaroons__img_image {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 730px) {
+
+  .header {
+    .container {
+      .header__menu {
+        .header__menu_list {
+          margin-right: 0;
+          margin-left: 7%;
+        }
+      }
+    }
+  }
+
+
+}
+
+
+/* 425! - 699 */
+@media screen and (max-width: 699px) {
+
+  .order {
+    .order__container {
+      .order__img {
+        .order__macaroons {
+          right: 2px;
+          bottom: -33px;
+        }
+      }
+    }
+  }
+
+
+  .main-macaroons {
+    .main__container {
+      .main-macaroons__img {
+        bottom: unset;
+        left: 2px;
+        margin-top: 38px;
+      }
+    }
+  }
+
+
+  .choose-macaroons {
+    .choose-macaroons__container {
+      margin-bottom: 0;
+
+      .choose-macaroons__cards {
+        grid-gap: 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 300px);
+
+        .choose-macaroons__cards_card {
+          &:nth-of-type(even),
+          &:nth-of-type(odd) {
+            justify-self: center;
+          }
+        }
+
+      }
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 630px) {
+
+  .order {
+    .order__container {
+      .order__img {
+        .order__bg-berry1 {
+          left: 73%;
+          top: 349px;
+        }
+      }
+
+      .order__bg-berry2 {
+        left: 73%;
+        top: 116px;
+      }
+    }
+  }
+
+
+}
+
+
+@media screen and (max-width: 510px) {
+
+  .order {
+    .order__container {
+      .order__img {
+        .order__macaroons {
+          display: none;
+        }
+
+        .order__bg-berry1 {
+          top: 326px;
+        }
+
+      }
+    }
+  }
+
+
+}
+
+
+/* 375! - 425 */
+@media screen and (max-width: 425px) {
+
+  .header {
+    .container {
+      .header__menu {
+        justify-content: space-between;
+
+        .burger {
+          display: unset;
+        }
+
+        .header__menu_list {
+          display: none;
+        }
+
+
+      }
+    }
+  }
+
+;
+
+  .main-macaroons {
+    .main__container {
+      text-align: center;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-bottom: 43px;
+
+      .main-macaroons__text {
+        .main-macaroons__text_title {
+          .base-font-size(18);
+          margin-bottom: 40px;
+        }
+
+        .main-macaroons__text_text-about {
+          .base-font-size(2);
+        }
+      }
+
+
+      .main-macaroons__img {
+        bottom: unset;
+        left: 2px;
+        margin-top: 38px;
+
+        .main-macaroons__img_circle {
+          height: 150px;
+          width: 150px;
+          top: calc(50% - 75px);
+          left: calc(50% - 75px);
+        }
+
+        .main-macaroons__img_image {
+          max-width: 74%;
+        }
+      }
+    }
+  }
+
+;
+
+  .about-macaroons {
+    .about-macaroons__container {
+      padding: 100px 16px 44px 16px;
+
+      .about-macaroons__main-info {
+        padding-bottom: 3px;
+
+        .about-macaroons__main-info_text {
+          .about-macaroons__main-info_text_title {
+            .base-font-size(16);
+            margin-bottom: 40px;
+          }
+
+          .about-macaroons__main-info_text_text {
+            .base-font-size(2);
+            margin-bottom: 59px;
+          }
+        }
+
+        .about-macaroons__main-info_img {
+          width: 302px;
+          height: 183px;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      .about-macaroons__advantages {
+        grid-gap: 15px;
+
+        .about-macaroons__advantages_card {
+          .advantages_card-title {
+            .base-font-size(4);
+          }
+
+          .advantages_card-text {
+            margin-bottom: 21px;
+            .base-font-size(-1);
+          }
+        }
+      }
+    }
+  }
+
+;
+
+
+  .choose-macaroons {
+    .choose-macaroons__container {
+      padding: 100px 18px;
+
+      .choose-macaroons__title {
+        .base-font-size(16);
+        margin-bottom: 122px;
+      }
+
+      .choose-macaroons__cards {
+        grid-gap: 142px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 231px);
+
+        .choose-macaroons__cards_card {
+          margin-bottom: 0;
+
+          &:nth-of-type(odd),
+          &:nth-of-type(even) {
+            justify-self: center;
+          }
+        }
+      }
+    }
+  }
+
+;
+
+
+
+  .order {
+    .order__container {
+      padding: 100px 15px 77px 15px;
+
+      .order__img {
+        .order__macaroons {
+          display: none;
+        }
+
+        .order__bg-berry1 {
+          top: 240px;
+        }
+      }
+
+
+      .order__text {
+        .order__text-title {
+          .base-font-size(16);
+        }
+
+        .order__text-description {
+          .base-font-size(2);
+          margin-bottom: 60px;
+        }
+
+        .order__text-form {
+          .order__text-form-input {
+            width: 100%;
+          }
+
+          .order-form__button {
+            width: 100%;
+          }
+        }
+      }
+
+
+      .order__bg-berry2 {
+        display: none;
+      }
+    }
+  }
+
+;
+
+  .footer {
+    .footer__container {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      .footer__logo_all-rights {
+        display: block;
+        order: 3;
+        margin-top: 0;
+      }
+
+      .footer__logo {
+        padding-bottom: 40px;
+
+        .footer__logo_all-rights1 {
+          display: none;
+        }
+      }
+
+      .footer__socials {
+        margin-bottom: 40px;
+        order: 2;
+      }
+    }
+  }
+
+;
+
+
+  .header {
+    .container {
+      .header__menu {
+        .header__menu_list {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          top: 0;
+          left: 0;
+          background-color: @dark-bg;
+
+          &.open {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            z-index: 100000;
+          }
+
+          li {
+            a {
+              .base-font-size(11);
+            }
+          }
+
+          .close {
+            display: block;
+            width: 24px;
+            height: 24px;
+            fill: rgb(130, 19, 40);
+            position: absolute;
+            top: 38px;
+            left: 20px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .contacts {
+    order: 1;
+    padding-bottom: 40px;
+  }
+}
+
+
+/* 320! - 375 */
+@media screen and (max-width: 375px) {
+
+  .main-macaroons {
+    .main__container {
+      .main-macaroons__img {
+        left: 0;
+
+        .main-macaroons__img_image {
+          max-width: 74%;
+        }
+      }
+
+      .main-macaroons__text {
+        .main-macaroons__text_title {
+          line-height: 1.25;
+        }
+
+        .main-macaroons__text_text-about {
+          line-height: 1.438;
+
+        }
+      }
+
+
+    }
+  }
+
+
+  .order {
+    .order__container {
+      .order__text {
+        .order__text-form {
+          .order__text-form-input {
+            width: 100%;
+
+            &::placeholder {
+              .base-font-size(-1);
+            }
+          }
+
+          .order-form__button {
+            width: 100%;
+          }
+        }
+
+      }
+
+    }
+  }
+
+
+  .about-macaroons {
+    .about-macaroons__container {
+      .about-macaroons__main-info {
+        .about-macaroons__main-info_text {
+          .about-macaroons__main-info_text_title {
+            line-height: 1.167;
+          }
+
+          .about-macaroons__main-info_text_text {
+            line-height: 1.437;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+@import "font-size";
+@import "theme";
